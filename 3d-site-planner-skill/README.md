@@ -66,7 +66,8 @@ Download [`dist/3d-site-planner.skill`](dist/3d-site-planner.skill) and upload i
 
 ### Manual (any assistant that reads `.claude/skills/`)
 
-Copy `.claude/skills/3d-site-planner/` into your project's `.claude/skills/` folder.
+Copy the `skills/3d-site-planner/` folder from this repo into your project's
+`.claude/skills/` folder.
 
 ## Usage
 
@@ -88,7 +89,7 @@ implementable 3D scroll narrative produced from a real project's data.
 ## What's in the box
 
 ```
-.claude/skills/3d-site-planner/
+skills/3d-site-planner/
 ├── SKILL.md                        # workflow + how the phases run
 └── references/
     ├── research-checklist.md       # every data source + signals to extract
