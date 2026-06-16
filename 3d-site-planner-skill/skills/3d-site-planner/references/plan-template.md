@@ -9,7 +9,11 @@ recommendation traceable to a finding. Replace bracketed placeholders.
 
 # 3D Website Plan — [Client Name]
 *Prepared [date] · Primary goal: [call / booking / purchase / lead] · Recommended
-stack: [stack]*
+stack: [stack] · Mode: [A — preserve existing site / B — build from scratch]*
+
+> **Mode A (existing site):** the client's real copy, assets, and structure are
+> preserved and animated, not rewritten. Any proposed content change is listed
+> explicitly for approval.
 
 ## 1. Executive summary
 3–5 sentences: who the client is, the core opportunity, the recommended 3D approach,
@@ -45,10 +49,15 @@ ratings/counts where real.
 - **Sitemap** — pages/sections + purpose.
 - **3D scene concepts** — per key page/section: what's in it, the interaction, what
   it communicates, how it drives the goal.
-- **Signature hero concept** — the one defining moment.
-- **Copy direction** — voice, key messages, draft headlines (grounded in findings).
-- **Asset list** — models, textures, photography, video, icons, fonts: have / source
-  / create (and how).
+- **Signature hero concept** — the one defining moment (cite the inspiration refs).
+- **Copy** — *Mode A:* the client's existing copy reused verbatim, mapped to scenes,
+  plus a separate flagged list of any proposed edits. *Mode B:* draft voice, messages,
+  headlines (grounded in findings), marked draft-for-approval.
+- **Asset list** — models, textures, photography, video, icons, fonts: *Mode A* reuses
+  the client's existing assets first (logo, colors, fonts, images, video), flagging
+  only genuinely new ones; *Mode B* is have / source / create (and how).
+- **Inspiration references** — 2–4 specific examples from the galleries and what each
+  contributes to form/motion.
 - **Interactions & motion** — scroll, hover, transitions.
 - **Performance budget** — load targets, asset ceilings, mobile strategy.
 - **Accessibility & SEO** — reduced-motion, keyboard, crawlable content, metadata,

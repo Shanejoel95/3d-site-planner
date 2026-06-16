@@ -26,6 +26,54 @@ very different sites depending on their reputation, existing assets, audience, a
 budget. So always research first, then let the findings drive the recommendation —
 especially the choice of 3D stack, which is the decision most people get wrong.
 
+The bar: the plan should describe a site worth **$5,000+** — a signature moment,
+genuine motion craft, and restraint. Pull current references from
+`references/inspiration-galleries.md` so the work aims at award-tier, not a generic
+template.
+
+---
+
+## Content-fidelity contract — READ FIRST
+
+Before anything else, decide which **mode** you're in. This is the single rule that
+most often gets violated, and getting it wrong makes the whole plan worthless to a
+client.
+
+### Mode A — Existing site → PRESERVE (animate in place, don't rewrite)
+
+If the client already has a website, the job is to make their **existing site
+animated/3D**, not to replace it with a new one. The content and original resources
+are **fixed inputs, not raw material**:
+
+- **Keep the real copy verbatim** — headlines, body text, product/service names,
+  prices, taxonomy, CTAs, legal/contact info. Do **not** rewrite, "improve," or
+  paraphrase it into your own voice.
+- **Keep the original assets** — logo, brand colors, fonts, photography, product
+  images, video. Reuse them; don't swap in stock or AI substitutes.
+- **Keep the structure** — the same pages and the same sections, in the same order
+  and meaning. You're re-skinning and animating, not re-architecting.
+- The 3D/motion layer **wraps** the existing content (reveals, parallax, depth,
+  scene staging). It never invents products, testimonials, stats, or sections that
+  aren't on the real site.
+- **Allowed changes, only when flagged explicitly** as proposals (never silent):
+  fixing an obvious typo, adding missing alt text, or *suggesting* net-new content
+  to fill a genuine gap. List these separately so the client can approve or reject —
+  the default is their content, untouched.
+
+So Phase 1 must **capture the real content** (see the checklist), and Phase 4 must
+**reference that captured content**, not generate fresh copy.
+
+### Mode B — No site → CREATE (from scratch is in scope)
+
+If there is **no existing website**, inventing content, copy, brand direction, and
+asset plans is exactly the job — proceed as a from-scratch build. Still ground every
+invented choice in real findings (reviews, social, positioning), and clearly mark
+copy as *draft for client approval*.
+
+State which mode you're in at the top of the plan. When a client has a site but
+wants specific sections rebuilt, you can run Mode A for what exists and Mode B for
+the genuinely new parts — but say so explicitly per section.
+
 ## Workflow at a glance
 
 1. **Gather** — combine what the user gave you with what you can fetch yourself.
@@ -116,6 +164,11 @@ State the recommendation, *why it fits this client specifically*, the realistic
 tradeoffs, and a fallback approach if budget or timeline tightens. Always pair the
 3D choice with a non-3D fallback experience for low-power devices and crawlers.
 
+Pull references from `references/inspiration-galleries.md` (Awwwards, Landing.love,
+Webflow, Vev, Refs.gallery) and cite the 2–4 specific examples you're drawing on and
+what you're adapting from each. References inform *form and motion only* — in Mode A
+they never override the client's real content.
+
 ---
 
 ## Phase 4 — Write the build brief
@@ -125,12 +178,19 @@ The actionable core. Specify, concretely:
 - **Sitemap** — pages/sections and their purpose.
 - **3D scene concepts** — per page or per key section: what's in the scene, the
   interaction, what it communicates, and how it serves the conversion goal. Ground
-  these in the highlights from Phase 2.
-- **Signature hero concept** — the one memorable moment that defines the site.
-- **Copy direction** — voice, key messages, headline angles (derived from real
-  reviews/positioning, not generic filler). Draft hero/section headlines.
-- **Asset list** — 3D models, textures, photography, video, icons, fonts: what
-  exists, what to source, what to create (and how — shoot, model, AI-generate).
+  these in the highlights from Phase 2. **Mode A:** map each scene to an existing
+  page/section and the real content it will animate — don't add scenes for content
+  the site doesn't have.
+- **Signature hero concept** — the one memorable moment that defines the site
+  (informed by the inspiration references).
+- **Copy** — **Mode A:** reuse the client's existing copy *verbatim*; quote the
+  real headlines/sections you'll animate, and list any proposed edits separately as
+  flagged suggestions (the default is untouched). **Mode B:** draft voice, key
+  messages, and headlines from real reviews/positioning, marked *draft for approval*.
+- **Asset list** — 3D models, textures, photography, video, icons, fonts. **Mode A:**
+  start from the client's existing assets (reuse logo, brand colors, fonts, images,
+  video) and only source/create what's genuinely missing — flag each new asset.
+  **Mode B:** what to source vs. create (and how — shoot, model, AI-generate).
 - **Interactions & motion** — scroll behavior, hover/click states, transitions.
 - **Performance budget** — target load, asset weight ceilings, lazy-loading,
   mobile strategy.
@@ -163,7 +223,10 @@ short paragraphs, and make every recommendation traceable to a finding.
 ## Principles
 
 - Research first; let evidence drive recommendations.
+- **Existing site = preserve.** Keep the client's real content, assets, and
+  structure; animate them — don't replace them. Invent only when there's no site.
 - Right-size the 3D — distinctiveness and performance must coexist.
+- Aim for an award-tier, $5,000+ bar: one signature moment, restrained elsewhere.
 - Every drawback gets a corresponding action in the plan.
 - Never invent reviews, metrics, quotes, or sources.
 - The plan should be specific enough that someone could start building from it.

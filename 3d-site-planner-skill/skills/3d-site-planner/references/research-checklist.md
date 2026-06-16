@@ -31,6 +31,16 @@ Use `web_fetch` — don't audit from snippets.
 **Tells you:** baseline to beat, what to keep, what's actively hurting them, and how
 ambitious the jump to 3D can be.
 
+**If a site exists, you are in Mode A (preserve) — capture, don't just assess.**
+Inventory the real content so Phase 4 can reuse it verbatim instead of inventing:
+- **Copy:** exact headlines, section text, product/service names, prices, CTAs,
+  contact/legal info — captured word-for-word.
+- **Structure:** the actual list of pages and the sections within each, in order.
+- **Assets:** logo, exact brand colors (hex), fonts, and the URLs of photography,
+  product images, and video to be reused.
+This inventory is the fixed input for the build — the 3D layer animates it; it does
+not rewrite it. (See the content-fidelity contract in SKILL.md.)
+
 ## 2. No website found
 Not a dead end — usually the biggest opportunity. Record explicitly:
 - They're starting from scratch → brand, content, and photography all in scope.
