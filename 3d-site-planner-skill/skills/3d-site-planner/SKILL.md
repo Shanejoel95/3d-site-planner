@@ -79,11 +79,13 @@ the genuinely new parts — but say so explicitly per section.
 1. **Gather** — combine what the user gave you with what you can fetch yourself.
 2. **Analyze** — build a clear picture: highlights to amplify, drawbacks to fix.
 3. **Recommend a 3D approach** — pick the stack that fits *this* client.
-4. **Write the build brief** — sitemap, scenes, copy, assets, interactions, perf.
+3b. **Research the motion** — hard-research the animation: deconstruct references,
+   pin down the techniques. This is what makes the plan buildable, not hand-wavy.
+4. **Write the build brief** — sitemap, scenes, motion system, copy, assets, perf.
 5. **Lay out a phased roadmap** — what happens when, with deliverables and effort.
 6. **Deliver** — assemble everything into the plan document and save it.
 
-Do all six in one pass. Don't stop to ask permission between phases unless a
+Do all of it in one pass. Don't stop to ask permission between phases unless a
 genuine blocker appears (e.g. the business can't be identified at all).
 
 ---
@@ -164,10 +166,42 @@ State the recommendation, *why it fits this client specifically*, the realistic
 tradeoffs, and a fallback approach if budget or timeline tightens. Always pair the
 3D choice with a non-3D fallback experience for low-power devices and crawlers.
 
-Pull references from `references/inspiration-galleries.md` (Awwwards, Landing.love,
-Webflow, Vev, Refs.gallery) and cite the 2–4 specific examples you're drawing on and
-what you're adapting from each. References inform *form and motion only* — in Mode A
-they never override the client's real content.
+Pull references from `references/inspiration-galleries.md` (Awwwards, FWA, Godly,
+mesh3d, Webflow, Vev, Refs.gallery, plus the exemplar sites and studios) and cite the
+2–4 specific examples you're drawing on and what you're adapting from each. References
+inform *form and motion only* — in Mode A they never override the client's real content.
+
+---
+
+## Phase 3b — Research the motion (hard animation research)
+
+This is the step the user specifically wants: **don't hand-wave the animation.** A
+plan that says "add 3D animations" is worthless. Research *how* the target experience
+is actually built, then specify it. The north star is **igloo.inc** — read
+`references/north-star-igloo.md` for the full deconstruction and use it as the model
+for how thorough to be.
+
+Do this every time:
+
+1. **Deconstruct the references.** For igloo.inc and each site you (or the client)
+   cited, answer the six questions in `north-star-igloo.md`: concept, signature
+   moment, stack & libraries, motion system, performance/loading, the tradeoff it
+   accepted. Use `web_search`/`web_fetch` on Awwwards case studies, Codrops, the
+   three.js forum, studio writeups, "built with" tools — snippets aren't enough.
+2. **Pin the techniques.** Translate each effect you want into the concrete vocabulary
+   in `references/animation-techniques.md`: the engine (Three.js / R3F / WebGPU /
+   Spline), scroll stack (Lenis + GSAP/ScrollTrigger), shaders/materials, particles,
+   post-processing, and how the specific signature effect is achieved (scroll-scrubbed
+   camera, material reveal, particle morph, page transition, etc.).
+3. **Right-size to budget and Mode.** One signature moment done award-tier beats ten
+   half-built ones. In **Mode A**, the motion wraps the client's existing content and
+   assets — design reveals/transitions/staging *for what already exists*, don't invent
+   new scenes. When a target effect is unusual, search to confirm it's feasible within
+   budget before promising it.
+
+Output of this phase feeds the **Motion & animation system** part of the build brief.
+The goal: a builder could read it and know which libraries to install and which
+technique implements each moment.
 
 ---
 
@@ -183,6 +217,11 @@ The actionable core. Specify, concretely:
   the site doesn't have.
 - **Signature hero concept** — the one memorable moment that defines the site
   (informed by the inspiration references).
+- **Motion & animation system** — the output of Phase 3b. The concrete recipe: engine
+  + libraries (e.g. R3F + drei + Lenis + GSAP/ScrollTrigger), the scroll choreography
+  (camera path, what scrubs to what), each signature effect mapped to its technique,
+  shader/material/post-processing list, and a scroll-timeline table if useful. Specific
+  enough to install and build from. Cite the reference each moment came from.
 - **Copy** — **Mode A:** reuse the client's existing copy *verbatim*; quote the
   real headlines/sections you'll animate, and list any proposed edits separately as
   flagged suggestions (the default is untouched). **Mode B:** draft voice, key

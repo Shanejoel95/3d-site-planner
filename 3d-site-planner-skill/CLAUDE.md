@@ -13,7 +13,9 @@ as a Claude Code plugin (`.claude-plugin/`) and as a Claude.ai skill upload
 
 - `skills/3d-site-planner/SKILL.md` — the skill: 6-phase workflow.
 - `skills/3d-site-planner/references/` — checklists, the stack-selection
-  matrix, the scoring rubric, and the output template. Read on demand.
+  matrix, the scoring rubric, the output template, the inspiration galleries +
+  exemplars, the igloo.inc north-star deconstruction, and the animation/technique
+  reference. Read on demand.
 - `examples/` — worked examples of the skill's output.
 - `dist/` — the `.skill` package for Claude.ai.
 

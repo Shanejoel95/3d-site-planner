@@ -50,6 +50,10 @@ ratings/counts where real.
 - **3D scene concepts** — per key page/section: what's in it, the interaction, what
   it communicates, how it drives the goal.
 - **Signature hero concept** — the one defining moment (cite the inspiration refs).
+- **Motion & animation system** — the buildable recipe from Phase 3b: engine +
+  libraries, scroll choreography (what scrubs to what), each signature effect mapped to
+  its technique, shaders/materials/post-processing, and a scroll-timeline table if
+  useful. Specific enough to install and build from; cite the reference per moment.
 - **Copy** — *Mode A:* the client's existing copy reused verbatim, mapped to scenes,
   plus a separate flagged list of any proposed edits. *Mode B:* draft voice, messages,
   headlines (grounded in findings), marked draft-for-approval.
