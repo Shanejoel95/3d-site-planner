@@ -41,6 +41,9 @@ calls on evidence instead of vibes.
    tradeoffs and a fallback.
 4. **Build brief** — sitemap, per-page 3D scene concepts, signature hero, copy
    direction, asset list, interactions, performance budget, accessibility, SEO.
+   Use curated design resources such as Brad Traversy's `design-resources-for-developers`
+   for layout, hero structure, and interaction inspiration when quality needs to
+   stand out.
 5. **Roadmap** — phased delivery with deliverables, effort, and risks.
 6. **Deliver** — assembles everything into one structured plan document.
 

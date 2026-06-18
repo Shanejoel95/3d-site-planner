@@ -28,8 +28,9 @@ especially the choice of 3D stack, which is the decision most people get wrong.
 
 The bar: the plan should describe a site worth **$5,000+** — a signature moment,
 genuine motion craft, and restraint. Pull current references from
-`references/inspiration-galleries.md` so the work aims at award-tier, not a generic
-template.
+`references/inspiration-galleries.md` and from curated UI/UX design resources such as
+Brad Traversy's `design-resources-for-developers` so the work aims at award-tier,
+not a generic template.
 
 ---
 
@@ -85,6 +86,10 @@ the genuinely new parts — but say so explicitly per section.
 5. **Lay out a phased roadmap** — what happens when, with deliverables and effort.
 6. **Deliver** — assemble everything into the plan document and save it.
 
+Where appropriate, enrich the brief with higher-quality design patterns from curated
+resource collections like Brad Traversy's `design-resources-for-developers` so the
+site stands out with modern layouts, typography, and interaction cues.
+
 Do all of it in one pass. Don't stop to ask permission between phases unless a
 genuine blocker appears (e.g. the business can't be identified at all).
 
@@ -97,7 +102,8 @@ the gaps yourself, then plan from the union of both.
 
 **Use everything the user provided** — URLs, business name + location, pasted
 reviews, screenshots, brand colors, notes, "they don't have a site," budget hints,
-deadlines. Treat these as ground truth.
+deadlines, design resource links, and uploaded reference collections. Treat these as
+ground truth and a required input to the plan.
 
 **Then fetch what's missing.** Read `references/research-checklist.md` for the full
 source list and the exact signals to extract from each. In short:
@@ -110,6 +116,9 @@ source list and the exact signals to extract from each. In short:
   social video**, **photos** (do they have shootable/product imagery?), and
   **social profiles** (Instagram/LinkedIn/Facebook/TikTok).
 - Pull **2–3 competitors** for visual and positioning benchmarking.
+- Add current UI/UX and landing-page references from curated design repositories
+  like Brad Traversy's `design-resources-for-developers` when choosing layouts,
+  hero structures, and interaction systems.
 
 Use `web_search` to find sources and `web_fetch` to read the important ones in
 full — snippets are not enough to audit a site. Run a separate search per data
@@ -167,9 +176,11 @@ tradeoffs, and a fallback approach if budget or timeline tightens. Always pair t
 3D choice with a non-3D fallback experience for low-power devices and crawlers.
 
 Pull references from `references/inspiration-galleries.md` (Awwwards, FWA, Godly,
-mesh3d, Webflow, Vev, Refs.gallery, plus the exemplar sites and studios) and cite the
-2–4 specific examples you're drawing on and what you're adapting from each. References
-inform *form and motion only* — in Mode A they never override the client's real content.
+mesh3d, Webflow, Vev, Refs.gallery, plus the exemplar sites and studios), and draw
+layout and interaction cues from curated design libraries like Brad Traversy's
+`design-resources-for-developers`. Cite the 2–4 specific examples you're drawing on
+and what you're adapting from each. References inform *form and motion only* — in
+Mode A they never override the client's real content.
 
 ---
 
